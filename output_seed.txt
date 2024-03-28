@@ -1,0 +1,4 @@
+ Seed node listening on 127.0.0.1:6001
+Seed node listening on 127.0.0.1:6003
+Seed node listening on 127.0.0.1:6000
+Seed node listening on 127.0.0.1:6002

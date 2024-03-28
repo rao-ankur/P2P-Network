@@ -1,0 +1,10 @@
+Failed to request peer list from seed 127.0.0.1:6000: [Errno 61] Connection refused
+Failed to request peer list from seed 127.0.0.1:6001: [Errno 54] Connection reset by peer
+Failed to request peer list from seed 127.0.0.1:6002: [Errno 61] Connection refused
+Failed to request peer list from seed 127.0.0.1:6003: [Errno 61] Connection refused
+a
+gossip generated :  Node listening on 127.0.0.1:8001
+Peer list is : []
+
+1
+gossip generated :  2
