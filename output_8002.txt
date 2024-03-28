@@ -1,75 +1,109 @@
-8002 Registered successfully to 6001
-8002 Registered successfully to 6003
 8002 Registered successfully to 6000
+8002 Registered successfully to 6001
+8002 Registered successfully to 6002
 a
 Node listening on 127.0.0.1:8002
-gossip generated : 
- Peer list is : [8001, 8002]1
+gossip generated :  Peer list is : [8001, 8002]1
 
-reply of liveliness msg recv :  1144:1709817042:8002:8001
-Liveliness msg recv :  1122:1709817044:8001:
-Gossip mgs recv :  1133:8001:1709817046:4
-gossip generated :  2
-Gossip mgs recv :  1133:8001:1709817051:5
-gossip generated :  3
-Peer list is : [8001, 8002]
-reply of liveliness msg recv :  1144:1709817055:8002:8001
-Gossip mgs recv :  1133:8001:1709817056:6
-gossip generated :  4
-Liveliness msg recv :  1122:1709817057:8001:
-Gossip mgs recv :  1133:8001:1709817061:7
-gossip generated :  5
-Liveliness msg recv :  1122:1709817065:8003:
-Gossip mgs recv :  1133:8003:1709817065:1
+
+reply of liveliness msg recv :  1144:1711615484:8002:8001
+Gossip mgs recv :  1133:8001:1711615486:2
+Liveliness msg recv :  1122:1711615489:8003:
+Gossip mgs recv :  1133:8003:1711615489:1
 propagte msg from  8002  to  8001
-Gossip mgs recv :  1133:8003:1709817065:1
-Gossip mgs recv :  1133:8001:1709817066:8
-Gossip mgs recv :  1133:8001:1709817066:8
+Gossip mgs recv :  1133:8003:1711615489:1
+gossip generated :  2
+Gossip mgs recv :  1133:8001:1711615491:3
 propagte msg from  8002  to  8003
+Gossip mgs recv :  1133:8001:1711615491:3
+Liveliness msg recv :  1122:1711615494:8001:
+Gossip mgs recv :  1133:8003:1711615494:2
+propagte msg from  8002  to  8001
+Gossip mgs recv :  1133:8003:1711615494:2
+gossip generated :  3
+Gossip mgs recv :  1133:8001:1711615496:4
+propagte msg from  8002  to  8003
+Gossip mgs recv :  1133:8001:1711615496:4
+Peer list is : [8001, 8002, 8003]
+reply of liveliness msg recv :  1144:1711615497:8002:8003
+reply of liveliness msg recv :  1144:1711615497:8002:8001
+Gossip mgs recv :  1133:8003:1711615499:3
+propagte msg from  8002  to  8001
+Gossip mgs recv :  1133:8003:1711615499:3
+gossip generated :  4
+Gossip mgs recv :  1133:8001:1711615501:5
+propagte msg from  8002  to  8003
+Gossip mgs recv :  1133:8001:1711615501:5
+Liveliness msg recv :  1122:1711615502:8003:
+Gossip mgs recv :  1133:8003:1711615504:4
+propagte msg from  8002  to  8001
+Gossip mgs recv :  1133:8003:1711615504:4
+gossip generated :  5
+Gossip mgs recv :  1133:8001:1711615506:6
+propagte msg from  8002  to  8003
+Gossip mgs recv :  1133:8001:1711615506:6
+Liveliness msg recv :  1122:1711615507:8001:
+Gossip mgs recv :  1133:8003:1711615509:5
+propagte msg from  8002  to  8001
+Gossip mgs recv :  1133:8003:1711615509:5
 gossip generated :  6
 Peer list is : [8001, 8002, 8003]
-reply of liveliness msg recv :  1144:1709817068:8002:8003
-reply of liveliness msg recv :  1144:1709817068:8002:8001
-Gossip mgs recv :  1133:8003:1709817070:2
-propagte msg from  8002  to  8001
-Gossip mgs recv :  1133:8003:1709817070:2
-Liveliness msg recv :  1122:1709817070:8001:
-Gossip mgs recv :  1133:8001:1709817071:9
+reply of liveliness msg recv :  1144:1711615510:8002:8003
+reply of liveliness msg recv :  1144:1711615510:8002:8001
+Gossip mgs recv :  1133:8001:1711615511:7
 propagte msg from  8002  to  8003
-Gossip mgs recv :  1133:8001:1709817071:9
+Gossip mgs recv :  1133:8001:1711615511:7
+Gossip mgs recv :  1133:8003:1711615514:6
+propagte msg from  8002  to  8001
+Gossip mgs recv :  1133:8003:1711615514:6
 gossip generated :  7
-Gossip mgs recv :  1133:8003:1709817075:3
-propagte msg from  8002  to  8001
-Gossip mgs recv :  1133:8003:1709817075:3
-Gossip mgs recv :  1133:8001:1709817076:10
+Liveliness msg recv :  1122:1711615515:8003:
+Gossip mgs recv :  1133:8001:1711615516:8
 propagte msg from  8002  to  8003
-Gossip mgs recv :  1133:8001:1709817076:10
+Gossip mgs recv :  1133:8001:1711615516:8
+Gossip mgs recv :  1133:8003:1711615519:7
+propagte msg from  8002  to  8001
+Gossip mgs recv :  1133:8003:1711615519:7
+Liveliness msg recv :  1122:1711615520:8001:
 gossip generated :  8
-Liveliness msg recv :  1122:1709817078:8003:
-Gossip mgs recv :  1133:8003:1709817080:4
-propagte msg from  8002  to  8001
-Gossip mgs recv :  1133:8003:1709817080:4
+Gossip mgs recv :  1133:8001:1711615521:9
+propagte msg from  8002  to  8003
+Gossip mgs recv :  1133:8001:1711615521:9
 Peer list is : [8001, 8002, 8003]
-reply of liveliness msg recv :  1144:1709817081:8002:8003
-reply of liveliness msg recv :  1144:1709817081:8002:8001
+reply of liveliness msg recv :  1144:1711615523:8002:8003
+reply of liveliness msg recv :  1144:1711615523:8002:8001
+Gossip mgs recv :  1133:8003:1711615524:8
+propagte msg from  8002  to  8001
+Gossip mgs recv :  1133:8003:1711615524:8
 gossip generated :  9
-Liveliness msg recv :  1122:1709817083:8001:
-Gossip mgs recv :  1133:8003:1709817085:5
+Gossip mgs recv :  1133:8001:1711615526:10
+propagte msg from  8002  to  8003
+Gossip mgs recv :  1133:8001:1711615526:10
+Liveliness msg recv :  1122:1711615528:8003:
+Gossip mgs recv :  1133:8003:1711615529:9
 propagte msg from  8002  to  8001
-Gossip mgs recv :  1133:8003:1709817085:5
+Gossip mgs recv :  1133:8003:1711615529:9
 gossip generated :  10
-Gossip mgs recv :  1133:8003:1709817090:6
+Liveliness msg recv :  1122:1711615533:8001:
+Gossip mgs recv :  1133:8003:1711615534:10
 propagte msg from  8002  to  8001
-Gossip mgs recv :  1133:8003:1709817090:6
-Liveliness msg recv :  1122:1709817091:8003:
+Gossip mgs recv :  1133:8003:1711615534:10
 Peer list is : [8001, 8002, 8003]
-reply of liveliness msg recv :  1144:1709817094:8002:8003
-reply of liveliness msg recv :  1144:1709817094:8002:8001
-Gossip mgs recv :  1133:8003:1709817095:7
-propagte msg from  8002  to  8001
-Gossip mgs recv :  1133:8003:1709817095:7
-Liveliness msg recv :  1122:1709817096:8001:
-Gossip mgs recv :  1133:8003:1709817100:8
-propagte msg from  8002  to  8001
-Gossip mgs recv :  1133:8003:1709817100:8
-Liveliness msg recv :  1122:1709817104:8003:
+reply of liveliness msg recv :  1144:1711615537:8002:8003
+reply of liveliness msg recv :  1144:1711615537:8002:8001
+Liveliness msg recv :  1122:1711615546:8001:
+Peer list is : [8001, 8002, 8003]
+reply of liveliness msg recv :  1144:1711615550:8002:8001
+Liveliness msg recv :  1122:1711615559:8001:
+Peer list is : [8001, 8002, 8003]
+reply of liveliness msg recv :  1144:1711615563:8002:8001
+Liveliness msg recv :  1122:1711615572:8001:
+Peer list is : [8001, 8002, 8003]
+reply of liveliness msg recv :  1144:1711615576:8002:8001
+Liveliness msg recv :  1122:1711615585:8001:
+Peer list is : [8001, 8002, 8003]
+Dead Node detected :  8003
+reply of liveliness msg recv :  1144:1711615589:8002:8001
+Liveliness msg recv :  1122:1711615598:8001:
+Peer list is : [8001, 8002]
+reply of liveliness msg recv :  1144:1711615602:8002:8001

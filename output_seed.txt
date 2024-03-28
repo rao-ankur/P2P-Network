@@ -1,4 +1,14 @@
  Seed node listening on 127.0.0.1:6001
-Seed node listening on 127.0.0.1:6003
 Seed node listening on 127.0.0.1:6000
+Seed node listening on 127.0.0.1:6003
 Seed node listening on 127.0.0.1:6002
+Peer 8001 registered to seed 6003
+Peer 8001 registered to seed 6001
+Peer 8001 registered to seed 6000
+Peer 8002 registered to seed 6000
+Peer 8002 registered to seed 6001
+Peer 8002 registered to seed 6002
+Peer 8003 registered to seed 6001
+Peer 8003 registered to seed 6002
+Peer 8003 registered to seed 6003
+seed 6003 recv dead node request : DEAD:127.0.0.1:8003:1711615585:8001seed 6001 recv dead node request : DEAD:127.0.0.1:8003:1711615585:8001seed 6000 recv dead node request : DEAD:127.0.0.1:8003:1711615585:8001seed 6000 recv dead node request : DEAD:127.0.0.1:8003:1711615589:8002seed 6001 recv dead node request : DEAD:127.0.0.1:8003:1711615589:8002seed 6002 recv dead node request : DEAD:127.0.0.1:8003:1711615589:8002seed 6003 recv dead node request : DEAD:127.0.0.1:8002:1711615650:8001seed 6001 recv dead node request : DEAD:127.0.0.1:8002:1711615650:8001seed 6000 recv dead node request : DEAD:127.0.0.1:8002:1711615650:8001

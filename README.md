@@ -58,6 +58,17 @@ Here I am showing every message that the peer is receiving also at every 13 seco
 - If a peer fails to receive responses to three consecutive liveness messages from a neighbor, it notifies connected seed nodes for removal from the peer list.
 - Closing a peer triggers a dead message reported to seed nodes.
 
+## Output files Explained
+- I made 4 seeds at ports 6001, 6002, 6003, 6004 by running seed.py
+- Then I initialized 3 peers at ports 8001, 8002 and 8003
+- all thses peers share the same peer list so They get connected with each other and start sending the gossip and liviliness message to each other. 
+- Each peer generates a gossip message at every 5 second, save the message hash in its hash list and send to oher peers in its peer list
+- Whenever any peer recieves any gossip message, it check the gossip message in its hash list and if not found: first save its hash in its hash list and then propagate the message to ther peers in peer list 
+- Each peer also generates the liveliness message at every 13 seconds which it sends to all other peers in its peer list
+- Whenever any peer recieves any liveliness messages it sends the reply of liveliness message to the same peer from which it recieved that liveliness message
+- Whenever any peer has sended consecutively 3 liveliness message without getting their reply it declares that peer a dead node by removing that peer from its peer list and send dead message to the seeds to which its was connected. Then seed updates its peer list ny removing dead peer
+- For each peer a output file is made which store all its message generated(sended) and recieved and some other extra information
+- Simarly one output file is made to store the all seeds log   
 
 
 ## Proof of Correctness
